@@ -1,20 +1,26 @@
 ## Bike sharing Edinburgh
 
-### Zadání:
+### About Just Eat Cycles:
 
-V Edinburghu, stejně jako v dalších městech, funguje systém "bike sharing" - ve městě jsou stanice s koly, člověk si může nějaké půjčit a potom ho vrátit v nějaké další stanici. Problém je, že v některých stanicích se kola pravidelně hromadí a jinde naopak chybí. Provozovatel kol, firma Just Eat Cycles, zadala projekt, jehož cílem je systém zefektivnit. Výstup projektu je otevřený: může to být plán dodávek převážejících kola mezi stanicemi nebo návrh nové cenotvorby.
+Just Eat Cycles is Edinburgh’s cycle hire scheme. The bikes are a quick and easy way to get from A to B around Edinburgh. Most people use it as an alternative to public transportation for everyday journeys like commuting, getting to places or just as a fun way to experience the city.
 
-Coby datový analytik jste součástí týmu, který na projektu pracuje. Vaším úkolem je zpracovat relevantní data a zjistit z nich informace užitečné pro zbytek týmu. Máte k dispozici data o všech výpůjčkách . Proveďte standardní deskriptivní statistiku dat. Také zjistěte minimálně následující informace:
+### Task description:
 
-- identifikujte aktivní a neaktivní stanice
-- identifikujte nejfrekventovanější stanice
-- identifikujte stanice, na kterých se kola hromadí a stanice, kde potenciálně chybí
-- spočítejte vzdálenosti mezi jednotlivými stanicemi
-- jak dlouho trvá jedna výpůjčka? Najděte odlehlé hodnoty, zobrazte histogram
+- identify active and non active stations
+- identify the most frequented
+- identify oversupplied and undersupplied stations
+- calculate the distance between stations
+- what is a duration of one ride? Find outliers and display histogram
 
-### Analýza poptávky:
+### Demand analysis:
 
-- zobrazte vývoj poptávky po půjčování kol v čase
-- identifikujte příčiny výkyvů poptávky
-- zjistěte vliv počasí na poptávku po kolech (údaje o počasí v Edinburghu jsou v tabulce edinburgh_weather)
-- půjčují si lidé kola více o víkendu než během pracovního týdne?
+- display the development of the demand for bycicles over time
+- identify the causes of fluctuations in demand
+- find out the influence of the weather on demand 
+- do people rent bikes more on weekends or during the working week?
+
+### Datasets:
+- **edinburgh_bikes.csv** contains detail information about daily trips between stations
+- **edinburgh_weather.csv** contains information about temperature, wind, gust, rain, humidity, pressure and wind (measured daily every 3 hours)
+
+
