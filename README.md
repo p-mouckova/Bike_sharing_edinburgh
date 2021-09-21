@@ -6,7 +6,7 @@ Just Eat Cycles is Edinburgh’s cycle hire scheme. The bikes are a quick and ea
 
 ### Task description:
 
-- identify active and non active stations
+- identify active and inactive stations
 - identify the most frequented
 - identify oversupplied and undersupplied stations
 - calculate the distance between stations
